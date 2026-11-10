@@ -1,0 +1,40 @@
+# 默认由 Git 自动判定文本/二进制，并统一换行为 LF
+* text=auto
+
+# 源码与工程文件统一 LF
+*.c        text eol=lf
+*.h        text eol=lf
+*.cpp      text eol=lf
+*.hpp      text eol=lf
+*.s        text eol=lf
+*.md       text eol=lf
+*.txt      text eol=lf
+*.ioc      text eol=lf
+*.uvprojx  text eol=lf
+*.json     text eol=lf
+
+# Windows 脚本保持 CRLF
+*.bat      text eol=crlf
+*.cmd      text eol=crlf
+*.ps1      text eol=crlf
+
+# 二进制资源
+*.pdf   binary
+*.jpg   binary
+*.jpeg  binary
+*.png   binary
+*.gif   binary
+*.bmp   binary
+*.xls   binary
+*.xlsx  binary
+*.doc   binary
+*.docx  binary
+*.ppt   binary
+*.pptx  binary
+*.lib   binary
+*.dll   binary
+*.exe   binary
+*.pdb   binary
+*.zip   binary
+*.7z    binary
+*.rar   binary
